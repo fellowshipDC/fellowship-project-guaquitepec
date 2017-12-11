@@ -7,6 +7,9 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { HeaderComponent } from './header/header.component';
 import { HomeComponent } from './home/home.component';
 import { QuienesSomosComponent } from './quienes-somos/quienes-somos.component';
+import { QueHacemosComponent } from './que-hacemos/que-hacemos.component';
+import { FooterComponent } from './footer/footer.component';
+
 
 
 @NgModule({
@@ -15,7 +18,9 @@ import { QuienesSomosComponent } from './quienes-somos/quienes-somos.component';
     NavbarComponent,
     HeaderComponent,
     HomeComponent,
-    QuienesSomosComponent
+    QuienesSomosComponent,
+    QueHacemosComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
