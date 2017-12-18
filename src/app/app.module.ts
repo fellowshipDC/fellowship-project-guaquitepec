@@ -9,6 +9,13 @@ import { HomeComponent } from './home/home.component';
 import { QuienesSomosComponent } from './quienes-somos/quienes-somos.component';
 import { QueHacemosComponent } from './que-hacemos/que-hacemos.component';
 import { FooterComponent } from './footer/footer.component';
+import { SaludcomunitariaComponent } from './saludcomunitaria/saludcomunitaria.component';
+import { VinculosolComponent } from './vinculosol/vinculosol.component';
+import { EducacionFormComponent } from './educacion-form/educacion-form.component';
+import { ProduccionComponent } from './produccion/produccion.component';
+import { EconomiaSolComponent } from './economia-sol/economia-sol.component';
+import { NuestraFilosofiaComponent } from './nuestra-filosofia/nuestra-filosofia.component';
+
 
 
 
@@ -20,7 +27,14 @@ import { FooterComponent } from './footer/footer.component';
     HomeComponent,
     QuienesSomosComponent,
     QueHacemosComponent,
-    FooterComponent
+    FooterComponent,
+    SaludcomunitariaComponent,
+    VinculosolComponent,
+    EducacionFormComponent,
+    ProduccionComponent,
+    EconomiaSolComponent,
+    NuestraFilosofiaComponent
+    
   ],
   imports: [
     BrowserModule,
